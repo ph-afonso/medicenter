@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
+@import url('header.css');
+@import url('banner.css');
+
+:root {
+    --color-primary: #42B3E5;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
