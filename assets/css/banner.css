@@ -1,4 +1,5 @@
 .banner {
+    display: flex;
     background-image: url('../img/banner.jpg');
     background-size:cover;
     background-position: center;
@@ -6,8 +7,85 @@
     height: 300px;
 }
 
+.banner__options {
+    margin-top: 300px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__options-1,
+.banner__options-2,
+.banner__options-3 {
+    flex: 1;
+    font-weight: 500;
+    color: var(--color-light);
+    padding: 10px;
+}
+
+.banner__options-1 {
+    background-color: var(--color-primary);
+}
+
+.banner__options-2 {
+    background-color: var(--color-secundary);
+}
+
+.banner__options-3 {
+    background-color: var(--color-thirdiary);
+}
+
+.banner__option-title {
+    font-size: 18px;
+}
+
+.banner__option-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align:start;
+}
+
+.banner__options a {
+    display: inline-block;
+    border: 1px solid var(--color-light);
+    padding: 5px;
+    color: var(--color-light);
+    font-size: 13px;
+    text-decoration: none;
+    transition: all ease-out 0.3s;
+}
+
+.banner__options a:hover {
+    background-color: var(--color-light);
+    color: var(--color-quaternary);
+}
+
+.banner__option-table {
+    margin-top: 20px;
+}
+
+.banner__option-table-item {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed var(--color-light);
+}
+
 @media (min-width: 768px) {
     .banner {
-        height: 350px;
+        align-items: end;
+        padding: 0px 40px;
+        height: 500px;
     }
+    
+    .banner__options {
+        margin-top: 0;
+        flex-direction: row;
+    }
+
+    
 }

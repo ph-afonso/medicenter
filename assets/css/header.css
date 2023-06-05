@@ -55,7 +55,14 @@ nav a:hover {
 }
 
 @media (min-width: 500px) {
+    .header {
+        padding: 10px 40px;
+    }
     .header__logo {
         width: auto;
     } 
+
+    nav .header__menu-links-link {
+        padding: 15px 40px;
+    }
 }
