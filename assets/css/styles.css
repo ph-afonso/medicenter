@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
 @import url('header.css');
 @import url('banner.css');
+@import url('content.css');
 
 :root {
     --color-primary: #42B3E5;

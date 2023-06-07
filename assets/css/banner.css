@@ -70,8 +70,7 @@
     display: flex;
     font-size: 13px;
     justify-content: space-between;
-    margin-bottom: 25px;
-    padding-bottom: 3px;
+    margin-bottom: 15.075px;
     border-bottom: 1px dashed var(--color-light);
 }
 

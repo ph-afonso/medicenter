@@ -1,0 +1,151 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 475px;
+}
+
+.widget__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+
+.widget__title-text {
+    color: var(--color-dark);
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.widget__title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: var(--color-primary);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.widget__body-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.widget__body-container-item {
+    width: 142px;
+    max-height: 106px;
+}
+
+.widget__body-container-item img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.widget__body-contact-canal {
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+    margin-top: 10px;
+    background-color: var(--color-secundary);
+    align-items: center;
+    color: var(--color-light);
+}
+
+.icon {
+    color: var(--color-primary);
+    background-color: var(--color-light);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.zoom {
+    transition: all ease-out 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news__data {
+    display: flex;
+    gap: 2px;
+}
+
+article .news__data-data {
+    background-color: var(--color-thirdiary);
+    color: var(--color-light);
+    padding: 10px;
+}
+
+article .news__data-coments {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    padding: 10px;
+}
+article .news__thumbnail {
+    margin-top: 5px;
+}
+
+article .news__thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--color-dark);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+article .news__resume {
+    text-align: justify;
+    line-height: 15px;
+    font-size: 13px;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+}
+
+@media (min-width: 375px) {
+    .widget__body-container-item {
+        width: 170px;
+        max-height: 112px;
+    }
+}
+
+@media (min-width: 425px) {
+    .widget__body-container-item {
+        width: 195px;
+        max-height: 130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        margin-top: 0px;
+    }
+
+    .widget__title {
+        padding: 0px 40px;
+    }
+
+    .widget__body-container-item {
+        width: 334px;
+        max-height: 300px;
+    }
+}
