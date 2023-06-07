@@ -64,8 +64,10 @@ footer .widget__title-text {
 
 .social__link {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
 }
 
 .social__link-item {
@@ -82,9 +84,22 @@ footer .widget__title-text {
 }
 
 .footer__copy {
+    text-align: center;
     border-top: 1px solid var(--color-light);
     height: 40px;
     line-height: 40px;
     color: var(--color-light);
     margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .footer__menu {
+        margin-top: 0;
+        flex-direction: row;
+        padding: 0px 40px;
+    }
+
+    .tweets .social__link {
+        flex-direction: column;
+    }
 }

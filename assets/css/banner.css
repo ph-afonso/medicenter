@@ -36,7 +36,7 @@
 }
 
 .banner__option-title {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .banner__option-desc {
@@ -85,6 +85,4 @@
         margin-top: 0;
         flex-direction: row;
     }
-
-    
 }
