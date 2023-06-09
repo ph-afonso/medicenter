@@ -59,7 +59,7 @@
 
 .banner__options a:hover {
     background-color: var(--color-light);
-    color: var(--color-quaternary);
+    color: var(--color-secundary);
 }
 
 .banner__option-table {
@@ -84,5 +84,56 @@
     .banner__options {
         margin-top: 0;
         flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .banner {
+        height: 580px;
+    }
+
+    .banner__options {
+        margin-top: 300px;
+        height: 250px;
+    }
+
+    .banner__options-1,
+    .banner__options-2,
+    .banner__options-3 {
+        padding: 30px;
+    }
+
+    .banner__option-title {
+        font-size: 20px;
+    }
+
+    .banner__option-desc,  .banner__option-table-item {
+        font-size: 15px;
+    }
+
+    .banner__options a {
+        font-size: 15px;
+
+    }
+}
+
+@media (min-width: 1440px) {
+    .banner {
+        height: 650px;
+        padding: 0px 60px;
+    }
+
+    .banner__option-title {
+        font-size: 25px;
+    }
+
+    .banner__option-desc, .banner__option-table-item {
+        font-size: 17px;
+    }
+
+    .banner__options a {
+        padding: 15px 20px;
+        font-size: 17px;
     }
 }

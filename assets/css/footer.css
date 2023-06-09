@@ -43,7 +43,7 @@
 
 .footer__menu a:hover {
     background-color: var(--color-light);
-    color: var(--color-quaternary);
+    color: var(--color-secundary);
 }
 
 .footer__area {
@@ -101,5 +101,21 @@ footer .widget__title-text {
 
     .tweets .social__link {
         flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__area {
+        margin: 0px 20px;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1440px) {
+    .footer__area {
+        margin: 0px 40px;
+    }
+    .footer__menu {
+        margin: 0px 20px;
     }
 }
