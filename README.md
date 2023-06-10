@@ -10,6 +10,7 @@ O projeto utiliza as seguintes tecnologias e técnicas:
 
 - **HTML Semântico**: A estrutura do HTML foi criada seguindo as melhores práticas e padrões semânticos, visando uma compreensão clara do conteúdo e uma base sólida para a otimização de SEO.
 - **CSS**: O estilo do website foi implementado utilizando CSS para proporcionar uma aparência visual atraente e consistente.
+- JavaScript: Foi utilizado JavaScript para adicionar a funcionalidade de abrir e fechar o menu no modo mobile, melhorando a experiência de navegação em dispositivos móveis.
 - **Responsividade**: O website foi desenvolvido para ser responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos, garantindo uma experiência de usuário agradável em qualquer dispositivo.
 - **Técnicas Mobile First**: Foi aplicado o conceito de desenvolvimento Mobile First, onde o website foi inicialmente projetado e desenvolvido para dispositivos móveis, e posteriormente adaptado para telas maiores.
 - **GPT**: Utilizei o modelo GPT (Generative Pre-trained Transformer) da OpenAI para gerar o conteúdo deste README.md.
